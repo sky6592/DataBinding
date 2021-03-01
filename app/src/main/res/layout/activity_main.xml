@@ -22,7 +22,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@{user.lastName"/>
+        android:text="@{user.lastName}"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:singleLine="true"
+        android:hint="입력하세요"/>
+
+
 
 </LinearLayout>
 </layout>
