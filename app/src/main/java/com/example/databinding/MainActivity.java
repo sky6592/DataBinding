@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_main);
 
-        //완료 왜 안될까..
+        //완료 왜 안될까..ddd
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         User user = new User("First Name","Last Name");
         activityMainBinding.setUser(user);
